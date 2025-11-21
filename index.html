@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Athishkumaran R M — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="page-loader" class="loader">
+  <div class="loader-glow"></div>
+</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="brand">Athishkumaran</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button id="theme-toggle">🌗</button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-left" data-anim>
+      <h1 class="hero-title">Hi, I'm <span class="accent">Athishkumaran</span></h1>
+      <p class="hero-sub">Java Full Stack Developer</p>
+      <p class="hero-type"><span id="typing"></span><span class="cursor">|</span></p>
+      <p class="hero-desc">I build scalable Spring Boot backends and responsive frontends with clean code and modern authentication.</p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://github.com/athish2005" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/athishkumaran-r-m-947a6031b" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="hero-right" data-anim>
+      <div class="card glass">
+        <h3>About Me</h3>
+        <p>Motivated Java Full Stack Developer with hands-on experience in Spring Boot, JWT, REST APIs, Thymeleaf and databases.</p>
+        <div class="meta">Karur • athishkumaran4@gmail.com • 6381612308</div>
+      </div>
+
+      <div class="card stats">
+        <div class="stat"><strong>3+</strong><span>Projects</span></div>
+        <div class="stat"><strong>2025</strong><span>Graduate</span></div>
+        <div class="stat"><strong>GUVI</strong><span>Certified</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <section id="about" class="section" data-anim>
+    <h2>About</h2>
+    <p>I enjoy backend architecture, API development, authentication, and building high-quality web applications.</p>
+  </section>
+
+  <section id="projects" class="section" data-anim>
+    <h2>Projects</h2>
+    <div class="grid">
+
+      <article class="card project" data-anim>
+        <h3>Real Estate Platform</h3>
+        <p class="tech">Spring Boot • MySQL • Cloudinary • JWT</p>
+        <ul>
+          <li>Secure login using JWT authentication.</li>
+          <li>Property image uploads with Cloudinary.</li>
+          <li>REST APIs for listing and filtering.</li>
+        </ul>
+        <p class="link"><a href="https://github.com/athish2005/projectone" target="_blank">Real Estate Platform 🔗</a></p>
+      </article>
+
+      <article class="card project" data-anim>
+        <h3>Quiz Application</h3>
+        <p class="tech">Spring Boot • Thymeleaf • JavaMail • JWT</p>
+        <ul>
+          <li>Admin/User role-based access control.</li>
+          <li>Email notifications for onboarding & results.</li>
+          <li>Responsive UI with Thymeleaf.</li>
+        </ul>
+        <p class="link"><a href="https://github.com/athish2005/projecttwo_db" target="_blank">Quiz Application 🔗</a></p>
+      </article>
+
+      <article class="card project" data-anim>
+        <h3>Hotel Booking System</h3>
+        <p class="tech">Spring Boot • Thymeleaf • Stripe (Dummy) • JUnit</p>
+        <ul>
+          <li>Room filtering and booking flow.</li>
+          <li>Stripe dummy payment integration.</li>
+          <li>Unit testing with JUnit & Mockito.</li>
+        </ul>
+        <p class="link"><a href="https://github.com/athish2005/projectthree_db" target="_blank">Hotel Booking System 🔗</a></p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="skills" class="section" data-anim>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">Java</div>
+      <div class="skill">Spring Boot</div>
+      <div class="skill">REST APIs</div>
+      <div class="skill">Thymeleaf</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">MongoDB</div>
+      <div class="skill">JWT</div>
+      <div class="skill">JUnit</div>
+      <div class="skill">Mockito</div>
+      <div class="skill">Git</div>
+      <div class="skill">Maven</div>
+      <div class="skill">Postman</div>
+      <div class="skill">html</div>
+      <div class="skill">css</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section" data-anim>
+    <h2>Contact</h2>
+    <p>Email me anytime at: <a href="mailto:athishkumaran4@gmail.com">athishkumaran4@gmail.com</a></p>
+    <div class="contact-row">
+      <a class="btn primary" href="mailto:athishkumaran4@gmail.com">Email Me</a>
+      <a class="btn ghost" href="https://github.com/athish2005" target="_blank">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div>© 2025 Athishkumaran R M</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
